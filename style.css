@@ -78,6 +78,13 @@
     padding: 7px;
     margin-left: 5px;
  }
+ .background-image1{
+    background-image: url('./Pics/foto1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+ }
 
   
   @media (max-width:750px) {
