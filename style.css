@@ -85,6 +85,64 @@
     height: 100vh;
 
  }
+ .abip{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 400px 100px 50px 100px ;
+  color: rgba(255, 255, 255, 0.649);
+
+ }
+
+ input{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100px;
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgba(56, 172, 230);
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+.button{
+  display: inline-flex;
+  justify-content: center;
+}
+
+
+input:hover {
+  background-color: rgba(56, 172, 230);
+}
+
+input:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+ /* */
+ #banner h3{font-size: 50px;}
+
+ main h3{
+  margin: 10px 0px;
+}
+main .colonna{
+  padding: 20px;
+  text-align: center;
+}
+main p{
+  text-align: left;
+  margin-top: 10px;
+}
+main .fas{
+  font-size: 60px;
+}
 
   
   @media (max-width:750px) {
@@ -151,6 +209,10 @@
       height: calc(100vh - 50px);
       overflow-y: auto;
     }
+    .grid_3{
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      background-color: black;
   }
 
 
