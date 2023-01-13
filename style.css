@@ -101,7 +101,7 @@
   flex-flow: wrap;
   justify-content: flex-start;
   flex-direction: column;
-  width: 100px;
+  width: 50px;
   border: 0;
   line-height: 2.5;
   padding: 0 20px;
@@ -113,7 +113,7 @@
   background-color: rgba(56, 172, 230);
   box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
 }
-.button{
+.button1{
   display: inline-flex;
   justify-content: center;
 }
@@ -129,23 +129,104 @@ input:active {
  /*  end first text and btton*/
 
  /* */
- #banner h3{font-size: 50px;}
+    /*  statr second text and btton*/
+  .background-image2{
+   background-image: url('./Pics/foto2.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+  }
+  .cambiamo{
+   display: flex;
+   flex-flow: wrap;
+   justify-content: flex-start;
+   flex-direction: column;
+   padding: 350px 100px 150px 170px ;
+   color: rgba(255, 255, 255, 0.989);
+ 
+  }
+ 
+  input{
+   display: flex;
+   flex-flow: wrap;
+   justify-content: flex-start;
+   flex-direction: column;
+   width: 150px;
+   border: 0;
+   line-height: 2.5;
+   padding: 0 20px;
+   font-size: 1rem;
+   text-align: center;
+   color: #fff;
+   text-shadow: 1px 1px 1px #000;
+   border-radius: 10px;
+   background-color: rgba(56, 172, 230);
+   box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+ }
+ .button2{
+   display: inline-flex;
+   justify-content: center;
+ }
+ 
+ 
+ input:hover {
+   background-color: rgba(56, 172, 230);
+ }
+ 
+ input:active {
+   box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+ }
+  /*  second first text and btton*/
 
- main h3{
-  margin: 10px 0px;
-}
-main .colonna{
-  padding: 20px;
-  text-align: center;
-}
-main p{
-  text-align: left;
-  margin-top: 10px;
-}
-main .fas{
-  font-size: 60px;
-}
-
+      /*  statr third text and btton*/
+ .background-image3{
+   background-image: url('./Pics/foto3.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+  }
+ .magazine{
+   display: flex;
+   flex-flow: wrap;
+   justify-content: flex-start;
+   flex-direction: column;
+   padding: 350px 100px 150px 170px ;
+   color: rgba(255, 255, 255, 0.989);
+      
+  }
+      
+  input{
+   display: flex;
+   flex-flow: wrap;
+   justify-content: flex-start;
+   flex-direction: column;
+   width: 150px;
+   border: 0;
+   line-height: 2.5;
+   padding: 0 20px;
+   font-size: 1rem;
+   text-align: center;
+   color: #fff;
+   text-shadow: 1px 1px 1px #000;
+   border-radius: 10px;
+   background-color: rgba(56, 172, 230);
+   box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  }
+  .button3{
+   display: inline-flex;
+   justify-content: center;
+  }
+      
+      
+  input:hover {
+   background-color: rgba(56, 172, 230);
+  }
+      
+  input:active {
+   box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
+       /*  second third text and btton*/
+ 
   
   @media (max-width:750px) {
     .nav > .nav-btn {
@@ -189,19 +270,19 @@ main .fas{
 
 
     
-      .nav > .nav-links > ul li{
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-        background-color: #333;
+    .nav > .nav-links > ul li{
+      display: block;
+      margin-bottom: 20px;
+      padding: 0;
+      background-color: #333;
          
-      }
-      .nav > .nav-links > ul li a{
-          margin-left: 40%;
-      }
-      .nav .nav-links ul a.icon{
-        margin-left: 33%;
-      }
+    }
+    .nav > .nav-links > ul li a{
+      margin-left: 40%;
+    }
+    .nav .nav-links ul a.icon{
+      margin-left: 33%;
+    }
 
     /*   */
     .nav > #nav-check:not(:checked) ~ .nav-links {
@@ -211,12 +292,7 @@ main .fas{
       height: calc(100vh - 50px);
       overflow-y: auto;
     }
-    .grid_3{
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      background-color: black;
   }
-
 
 
 
