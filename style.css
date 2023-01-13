@@ -84,14 +84,15 @@
     background-repeat: no-repeat;
     height: 100vh;
 
+    /*  statr first text and btton*/
  }
  .abip{
   display: flex;
   flex-flow: wrap;
   justify-content: flex-start;
   flex-direction: column;
-  padding: 400px 100px 50px 100px ;
-  color: rgba(255, 255, 255, 0.649);
+  padding: 350px 100px 150px 170px ;
+  color: rgba(255, 255, 255, 0.895);
 
  }
 
@@ -125,6 +126,7 @@ input:hover {
 input:active {
   box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
+ /*  end first text and btton*/
 
  /* */
  #banner h3{font-size: 50px;}
