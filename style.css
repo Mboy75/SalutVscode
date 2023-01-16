@@ -1,6 +1,6 @@
-* {
-    box-sizing: border-box;
-  }
+ * {
+     box-sizing: border-box;
+   }
   
   body {
     margin: 0px;
@@ -67,10 +67,10 @@
     display: none;
   }
 
- .nav .nav-links ul a.icon{
- margin-left: 80px;
- margin-right: 10px;
- }
+  .nav .nav-links ul a.icon{
+    margin-left: 80px;
+    margin-right: 10px;
+  }
 
  .nav .nav-links ul a i{
     background-color: #fff;
@@ -86,46 +86,46 @@
 
     /*  statr first text and btton*/
  }
- .abip{
-  display: flex;
-  flex-flow: wrap;
-  justify-content: flex-start;
-  flex-direction: column;
-  padding: 350px 100px 150px 170px ;
-  color: rgba(255, 255, 255, 0.895);
+  .abip{
+   display: flex;
+   flex-flow: wrap;
+   justify-content: flex-start;
+   flex-direction: column;
+   padding: 350px 100px 150px 170px ;
+   color: rgba(255, 255, 255, 0.895);
 
- }
+  }
 
- input{
-  display: flex;
-  flex-flow: wrap;
-  justify-content: flex-start;
-  flex-direction: column;
-  width: 50px;
-  border: 0;
-  line-height: 2.5;
-  padding: 0 20px;
-  font-size: 1rem;
-  text-align: center;
-  color: #fff;
-  text-shadow: 1px 1px 1px #000;
-  border-radius: 10px;
-  background-color: rgba(56, 172, 230);
-  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
-}
-.button1{
-  display: inline-flex;
-  justify-content: center;
-}
+  input{
+   display: flex;
+   flex-flow: wrap;
+   justify-content: flex-start;
+   flex-direction: column;
+   width: 50px;
+   border: 0;
+   line-height: 2.5;
+   padding: 0 20px;
+   font-size: 1rem;
+   text-align: center;
+   color: #fff;
+   text-shadow: 1px 1px 1px #000;
+   border-radius: 10px;
+   background-color: rgba(56, 172, 230);
+   box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  }
+  .button1{
+    display: inline-flex;
+    justify-content: center;
+  }
 
 
-input:hover {
-  background-color: rgba(56, 172, 230);
-}
+  input:hover {
+    background-color: rgba(56, 172, 230);
+  }
 
-input:active {
-  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
-}
+  input:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
  /*  end first text and btton*/
 
  /* */
@@ -226,7 +226,48 @@ input:active {
    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
   }
        /*  second third text and btton*/
- 
+
+  footer{
+    padding: 30px 20px 60px;
+        /* a tre cfre top | left + right | bottom */
+     }
+  footer .colonna{
+    padding: 10px 0;
+    
+    }
+  footer .colonna h3{
+    display: inline-block;
+    font-size: 22px;
+    color: rgba(56, 172, 230);
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px 10px 10px;
+  }  
+    footer .colonna a{
+      color: #ffffff;
+      text-decoration: underline;
+
+    }
+  footer .colonna a:hover{
+    color: #009eee;
+    }
+  .menu_social{
+    display: flex;
+      /* flex-diretion:row; e il default
+      flex-direction:column; colonne in verticale
+      */
+    padding: 30px;
+    font-size: 30px;
+    justify-content: space-around;
+  
+  }
+  .wide{
+    height: 300px;
+    width: 100%;
+    background-color: #060606f6;
+    color: #fff;
+    position: relative;
+  }
   
   @media (max-width:750px) {
     .nav > .nav-btn {
@@ -291,6 +332,10 @@ input:active {
     .nav > #nav-check:checked ~ .nav-links {
       height: calc(100vh - 50px);
       overflow-y: auto;
+    }
+    footer h4{ text-align: center;}
+    .flexgrid img{
+       width: 300px;
     }
   }
 
