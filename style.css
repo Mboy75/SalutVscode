@@ -262,11 +262,16 @@
   
   }
   .wide{
-    height: 350px;
+    height: 100%;
     width: 100%;
     background-color: #060606f6;
     color: #fff;
     position: relative;
+  }
+  footer .colonna h4{
+    display: flex;
+    align-self: center;
+    justify-content: center;
   }
   
   @media (max-width:750px) {
